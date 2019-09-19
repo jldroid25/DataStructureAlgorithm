@@ -14,9 +14,9 @@ public class TrimMethodDemo {
     public static void main(String[] args) {
         String s1 = " hello   ";
 
-        System.out.println(s1 + "susbmissive gilrs");
+        System.out.println(s1 + "dangerous beasts");
 
-        System.out.println(s1.trim() + "susbmissive BDSM  Slaves gilrs");
+        System.out.println(s1.trim() + "docile animals  nicely done");
 
         System.out.println();
     }

@@ -11,7 +11,7 @@ public class EndWithMethodDemo {
 
     public static void main(String[] args) {
 
-        String s1 = "I wanna F Sasha Johansan so bad";
+        String s1 = "I wanna Save Sasha Johan from nightMake on Elm street";
 
         System.out.println(s1.endsWith("d"));
 

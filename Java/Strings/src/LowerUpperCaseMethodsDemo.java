@@ -19,7 +19,7 @@ public class LowerUpperCaseMethodsDemo {
         String s1Lower = s1.toLowerCase();
         System.out.println(s1Lower);
 
-        String s2 = "welcome to paradise club den haag";
+        String s2 = "welcome to paradiseNotHell club ";
 
         String s2Lower = s2.toUpperCase();
         System.out.println(s2Lower);

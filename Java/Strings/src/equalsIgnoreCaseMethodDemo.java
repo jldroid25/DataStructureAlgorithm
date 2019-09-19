@@ -25,25 +25,25 @@ public class equalsIgnoreCaseMethodDemo {
 
         System.out.println("------------------------------");
 
-        String TorontoPros = "isla david";
+        String TorontoPros = "isna david";
 
         ArrayList<String> providerList = new ArrayList<>();
 
-        providerList.add("Isla David");
-        providerList.add("Top Drawer");
-        providerList.add("Passion");
-        providerList.add("Kate Compton");
-        providerList.add("Madison winter");
-        providerList.add("Maddie Swann");
+        providerList.add("Isna David");
+        providerList.add("TopDrawer");
+        providerList.add("PassionFruit");
+        providerList.add("Kape Comptonator");
+        providerList.add("Madison winterstorm");
+        providerList.add("black Swann");
         providerList.add("Evana Bloor");
 
         for (String str: providerList){
 
             if (str.equalsIgnoreCase(TorontoPros)){
-                System.out.println("We'll have fun with this provider");
+                System.out.println("We have found it");
                 break;
             } else {
-                System.out.println("We need to to do some searches on MERB");
+                System.out.println("We need to to do some searches ");
             }
         }
 

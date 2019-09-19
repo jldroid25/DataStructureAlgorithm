@@ -11,13 +11,13 @@ public class ContainsMethodDemo {
 
     public static void main(String[] args) {
 
-        String providers = "Keira is submissive loves BDSM and greek";
+        String providers = "Keira is nice  loves cakes and icecream";
 
-        System.out.println(providers.contains("BDSM"));
+        System.out.println(providers.contains("cakes"));
 
-        System.out.println(providers.contains("submissive"));
+        System.out.println(providers.contains("loves"));
 
-        System.out.println(providers.contains("Bdsm"));
+        System.out.println(providers.contains("IceCream"));
 
         /*
 
@@ -26,12 +26,12 @@ public class ContainsMethodDemo {
         Let us see an example below.
          */
 
-        String cananaPros = "Keira is submissive loves BDSM and greek";
+        String cananaPros = "Keira is  nice loves cakes and iceCream";
 
-        if (cananaPros.contains("BDSM")){
-            System.out.println("She's submissive & is open to be dominated");
+        if (cananaPros.contains("cakes")){
+            System.out.println("She has a sweet tooth & is open to sweet");
         } else {
-            System.out.println("She's probably just GFE");
+            System.out.println("She's probably just skinny");
         }
     }
 }

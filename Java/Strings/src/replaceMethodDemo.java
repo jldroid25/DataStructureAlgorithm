@@ -37,7 +37,7 @@ public class replaceMethodDemo {
 
         String word2 = " she is Amy Raine and she is Canadian";
 
-        String replaceString3 = word2.replaceAll("Amy", "slut");
+        String replaceString3 = word2.replaceAll("Amy", "Keira");
         System.out.println(replaceString3);
 
 

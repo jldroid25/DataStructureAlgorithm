@@ -24,24 +24,24 @@ public class EqualsMethodDemo {
         //Test for equality od String in a list
         System.out.println("------------------------------");
 
-        String TorontoPros = "Isla David";
+        String TorontoPros = "Isna David";
 
         ArrayList<String> providerList = new ArrayList<>();
 
-        providerList.add("Top Drawer");
-        providerList.add("Passion");
-        providerList.add("Isla David");
-        providerList.add("Kate Compton");
-        providerList.add("Madison winter");
-        providerList.add("Maddie Swann");
+        providerList.add("TopDrawerConards");
+        providerList.add("PassionFruit");
+        providerList.add("Isna David");
+        providerList.add("Kateey Comptonator");
+        providerList.add("Madison winterstorm 99");
+        providerList.add("Black Swann");
         providerList.add("Evana Bloor");
 
         for (String str: providerList){
             if (str.equals(TorontoPros)){
-                System.out.println("We'll have fun with this provider");
+                System.out.println("Yes we found it");
                 break;
             } else {
-                System.out.println("We need to to do some searches on MERB");
+                System.out.println("We need to to do more research");
             }
         }
     }
